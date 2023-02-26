@@ -1,0 +1,24 @@
+@font-face {
+    font-family: bebas_neue_font;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: paragrafh;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+.paragrafh_style {
+    font-family: paragrafh;
+}
+
+.bebas_neue {
+    font-family: bebas_neue_font;
+}
+
+
+.header {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
