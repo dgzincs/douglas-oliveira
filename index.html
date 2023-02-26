@@ -42,7 +42,7 @@
 
 <body>
 	<div class="container-fluid d-flex flex-column justify-content-between">
-		<div class="row row-cols-1">
+		<div class="row row-cols-1 m-0 border-0">
 			<div class="col-12">
 				<nav class="navbar navbar-expand-lg bg-body-tertiary">
 					<div class="container-fluid">
@@ -54,7 +54,7 @@
 				  </nav>
 			</div>
 		</div>
-		<div class="row row-cols-2 d-flex flex-column justify-content-center align-content-center mb-3">
+		<div class="row row-cols-1 d-flex flex-column justify-content-center align-content-center mb-3 min-vh-100">
 			<div class="col-12 text-center">
 				<h1 class="bebas_neue">
 					Douglas Oliveira
@@ -70,49 +70,58 @@
 				  </figure>
 			</div>
 		</div>
-		<div class="row row-cols-3 mb-3">
+		<div class="row row-cols-3">
 			<div class="col-4">
 				<hr class="hr">
 			</div>
-			<div class="col-4 d-flex justify-content-center">
+			<div class="col-4 text-center">
 				Features
 			</div>
 			<div class="col-4">
 				<hr class="hr">
 			</div>
 		</div>
-		<div class="row row-cols-3 bebas_neue mb-3">
-			<div class="col-6 btn-group-vertical">
-				<button class="btn btn-light rounded-0">About me</button>
-				<button class="btn btn-light rounded-0">Education & Experience</button>
+		<div class="row row-cols-3 bebas_neue mb-3 d-flex justify-content-center min-vh-100">
+			<div class="col-4 card-col">
+				<div class="card">
+					<img src="assets/img/logo.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					</div>
+				  </div>
 			</div>
-			<div class="col-6 btn-group-vertical">
-				<button class="btn btn-light rounded-0">Work</button>
-				<button class="btn btn-light rounded-0">Get in Touch</button>
+			<div class="col-4 card-col">
+				<div class="card">
+					<img src="assets/img/logo.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					</div>
+				  </div>
 			</div>
-		</div>
-		<div class="row row-cols-3 mb-3">
-			<div class="col-4">
-				<hr class="hr">
-			</div>
-			<div class="col-4 d-flex justify-content-center">
-				Social
-			</div>
-			<div class="col-4">
-				<hr class="hr">
+			<div class="col-4 card-col">
+				<div class="card">
+					<img src="assets/img/logo.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					</div>
+				  </div>
 			</div>
 		</div>
 		<div class="row row-cols-1 mb-3">
 			<div class="col-12 d-flex justify-content-center">
-				<button class="btn btn-lg"><i class="bi bi-github"></i></button>
-				<button class="btn btn-lg"><i class="bi bi-linkedin"></i></button>
-				<button class="btn btn-lg"><i class="bi bi-stack-overflow"></i></button>
-				<button class="btn btn-lg"><i class="bi bi-twitter"></i></button>
+				
 			</div>
 		</div>
 		<div class="row fixed-bottom border-top">
-			<div class="col-4">&copy;2023, Douglas Oliveira.</div>
-			<div class="col-4"></div>
+			<div class="col-4">
+				&copy;2023, Douglas Oliveira.
+			</div>
+			<div class="col-4 text-center">
+				<a href="https://github.com/dgzincs" target="_blank" class="btn m-0"><i class="bi bi-github"></i></a>
+				<a href="https://www.linkedin.com/in/dgzin/" target="_blank" class="btn m-0"><i class="bi bi-linkedin"></i></a>
+				<a href="https://stackoverflow.com/users/18142132/douglas-oliveira" target="_blank" class="btn m-0"><i class="bi bi-stack-overflow"></i></a>
+				<a href="https://twitter.com/DGZINCS" target="_blank" class="btn"><i class="bi bi-twitter"></i></a>
+			</div>
 			<div class="col-4 text-end">
 				<i class="bi bi-bootstrap"></i>
 				<i class="bi bi-filetype-js"></i>
